@@ -1,0 +1,8 @@
+"step_no","step_desc","rows_removed","revenue_removed","rows_remaining"
+0,"raw data loaded and typed",0,0.00,1067371
+4,"removed rows with no customer_id (saved in sales_no_customer)",243007,2638958.18,824364
+5,"moved cancellations (invoice starts with C) to retail.returns",18744,-1095136.79,805620
+6,"removed rows with quantity <= 0 or price <= 0",71,0.00,805549
+7,"removed non-product stock codes (postage, fees, manual, test, gift vouchers)",2917,308979.20,802632
+8,"removed exact duplicate rows (kept one copy)",26055,365882.01,776577
+9,"removed extreme quantity orders (>= 10000 units, cancelled later)",11,262682.80,776566
